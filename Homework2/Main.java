@@ -25,7 +25,7 @@ public class Main {
             System.out.println("Вариант 1:");
             System.out.println("Сумма всех элементов массива равна " + Convert.strConverter(correctMatrix) + ".\n");
         } catch (CustomException e) {
-            e.getMessage();
+            System.out.println (e.getMessage());
         }
 
         try {
